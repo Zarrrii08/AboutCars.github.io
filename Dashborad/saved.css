@@ -1,0 +1,40 @@
+.outer-wrapper-2 {
+  display: table;
+  height: 138px;
+  /* margin: auto; */
+  width: 100%;
+  overflow: hidden;
+  background: #fdf8f9 0% 0% no-repeat padding-box;
+}
+
+.inner-wrapper-2 {
+  padding: 50px;
+}
+.bg-border {
+  padding: 3px 10px;
+  text-align: center;
+  /* UI Properties */
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+}
+.table-text {
+  font-size: 12px;
+  margin-top: 12px;
+  margin-left: 26px;
+  padding-left: 0px;
+}
+.table-text-1 {
+  font-size: 12px;
+  padding-left: 70px;
+}
+.wrap-pad {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  /* padding-bottom: 22px; */
+}
+.sort-wrapper {
+  position: relative;
+  right: -398px;
+  top: -3px;
+}

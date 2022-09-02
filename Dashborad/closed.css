@@ -1,0 +1,15 @@
+.text-pres {
+  position: absolute;
+  left: 30rem;
+  background-color: white;
+  padding: 0px 18px;
+  font-size: 12px;
+  font-weight: 400;
+}
+.line-wrapper {
+  width: 903px;
+  position: absolute;
+  left: -24rem;
+  top: -7px;
+  z-index: -1;
+}

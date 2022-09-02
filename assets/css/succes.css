@@ -1,0 +1,42 @@
+.marg-wrapp {
+  margin-top: 4rem;
+}
+.succes {
+  width: 50%;
+  margin: auto;
+}
+.succes-image {
+  margin-bottom: 30px;
+  margin-left: 8rem;
+}
+.succes-text {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.succes-p {
+  text-align: center;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.7;
+  font-size: 15px;
+  margin-bottom: 2rem;
+}
+
+.succes-btn {
+  padding-top: 14px;
+  text-align: center;
+  /* top: 653px; */
+  /* left: 687px; */
+  width: 230px;
+  margin: auto;
+  height: 50px;
+  /* UI Properties */
+  background: #ed1c24 0% 0% no-repeat padding-box;
+}
+.btn-text {
+  padding-top: 12px !important;
+}

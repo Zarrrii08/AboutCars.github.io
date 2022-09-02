@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\css\bootstrap-grid.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-grid.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-grid.min.css.map" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-grid.rtl.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-grid.rtl.css.map" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-reboot.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-reboot.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-utilities.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-utilities.css.map" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-utilities.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-utilities.min.css.map" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-utilities.rtl.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-utilities.rtl.min.css.map" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap.css.map" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap.min.css.map" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap.rtl.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap.rtl.css.map" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap.rtl.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap.rtl.min.css.map" type="text/css" />
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/listing.css">
+    <link rel="stylesheet" href="saved.css">
+    <link rel="stylesheet" href="account.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/user.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#toggle_tst").hide()
+            $("#show_hide").click(function () {
+                $("#toggle_tst").toggle(500);
+            });
+        });
+        $(document).ready(function () {
+            $(".navbar-toggler").click(function () {
+                $("#navbarSupportedContent").toggle(500);
+            });
+        });
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/images/logo.png" width="157px" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=""
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link sale-text underlineHover" href="#">Cars for sale &nbsp &nbsp <span style=" letter-spacing: var(--unnamed-character-spacing-0);width: 48px;height: 23px;/* UI Properties */border-radius: 5px;opacity: 1;
+            color: #ffffff;font-size: 14px;background: #ED1C24 0% 0% no-repeat padding-box;padding: 1px 7px;
+              ">1000</span></a>
+                    </li>
+                    <li class="nav-item">
+
+                        <a class="nav-link purchase-text underlineHover" href="AboutCars.html">Cars Purchase sale &nbsp
+                            &nbsp
+                            <span
+                                style="width: 48px;height: 23px; color: #ffffff;  font-size: 14px; background: #959494 0% 0% no-repeat padding-box;border-radius: 5px;opacity: 1;padding: 1px 7px;">2000</span></a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a class="marg-icons underlineHover" href="CloseRquest.html">
+                        <img src="assets/images/Group 2319.png" alt="">
+                    </a>
+                    <a class="marg-icons underlineHover" href="saved.html">
+                        <img src="assets/images/Path 19264.png" alt="">
+                    </a>
+                    <a class="marg-icons underlineHover" href="user.html">
+                        <img src="assets/images/user.png" width="25px" alt="">
+                    </a>
+                    <button id="show_hide" style="border: none;background: none;"> <img src="assets/images/profile.png"
+                            width="50px" height="50px" alt=""></button>
+                    <div id="toggle_tst">
+                        <div class="row" id="">
+                            <div class="col-12">
+                                <div class="img-profile">
+                                    <img src="assets/images/profile.png" width="70px" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="text-profile">
+                                    Mazam Ul Huq
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="para-profile">Administrator</div>
+                            </div>
+                            <div class="col-12">
+                                <div class="edit-profile">
+                                    <a href="account.html">Edit account</a>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="btn-profile">
+                                    <a class="btn btn-primary ms-2 nav-btns-2" href="#">
+                                        Logout
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+    </nav>
+
+    <div class="outer-wrapper-2">
+        <div class="container">
+            <div class="inner-wrapper-2 d-flex justify-content-evenly">
+                <h1 class="tittle-head">Edit Account</h1>
+                <div class="btn-profile">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        style="border: none;
+    border-radius: 1px;
+    background: #ED1C24;">
+                        <span>+</span> Add Users
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Add Users</h5>
+
+                                </div>
+                                <div class="modal-body">
+                                    <form action="/" method="post">
+
+                                        <div class="top-row d-flex">
+
+                                            <div class="field-wrap"
+                                                style="display: flex;justify-content: space-between;">
+                                                <div class="field-wrap">
+                                                    <p>
+                                                        Full Name
+                                                    </p>
+                                                    <input type="text" placeholder="John Doe " required />
+                                                </div>
+                                                <div class="field-wrap">
+                                                    <p>
+                                                        Employee ID
+                                                    </p>
+                                                    <input type="text" placeholder="Enter users employee ID" required />
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="field-wrap" style="display: flex;justify-content: space-between;">
+                                            <div class="field-wrap">
+                                                <p>
+                                                    Contact Number
+                                                </p>
+                                                <input type="number" placeholder="Enter users contact number" required
+                                                    autocomplete="off" />
+                                            </div>
+                                            <div class="field-wrap">
+                                                <p>
+                                                    Email
+                                                </p>
+                                                <input type="email" placeholder="Enter users email address" required
+                                                    autocomplete="off" />
+                                            </div>
+                                        </div>
+                                        <div class="sel-wrapper">
+                                            <label for="lang">Role</label>
+                                            <select name="languages" id="lang">
+                                                <option value="javascript"><b>Administrator</b> </option>
+                                                <option value="php">PHP</option>
+                                                <option value="java">Java</option>
+                                                <option value="golang">Golang</option>
+                                                <option value="python">Python</option>
+                                                <option value="c#">C#</option>
+                                                <option value="C++">C++</option>
+                                                <option value="erlang">Erlang</option>
+                                            </select>
+                                        </div>
+
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                       
+                    </button>
+                    <div class="modal" tabindex="-1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                     <form action="/" method="post">
+
+                                        <div class="top-row d-flex">
+
+                                            <div class="field-wrap"
+                                                style="display: flex;justify-content: space-between;">
+                                                <div class="field-wrap">
+                                                    <p>
+                                                        Name
+                                                    </p>
+                                                    <input type="text" required />
+                                                </div>
+                                                <div class="field-wrap">
+                                                    <p>
+                                                        Name
+                                                    </p>
+                                                    <input type="text" required />
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="field-wrap" style="display: flex;justify-content: space-between;">
+                                            <div class="field-wrap">
+                                                <p>
+                                                    Contact Number
+                                                </p>
+                                                <input type="number" required autocomplete="off" />
+                                            </div>
+                                            <div class="field-wrap">
+                                                <p>
+                                                    Email
+                                                </p>
+                                                <input type="email" required autocomplete="off" />
+                                            </div>
+
+                                        </div>
+                                        <div class="sel-wrapper">
+                                            <label for="lang">Role</label>
+                                            <select name="languages" id="lang">
+                                                <option value="javascript"><b>Administrator</b> </option>
+                                                <option value="php">PHP</option>
+                                                <option value="java">Java</option>
+                                                <option value="golang">Golang</option>
+                                                <option value="python">Python</option>
+                                                <option value="c#">C#</option>
+                                                <option value="C++">C++</option>
+                                                <option value="erlang">Erlang</option>
+                                            </select>
+                                        </div>
+
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Add Users</h5>
+                                    <button type="button" class="btn-close ps-5" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="/" method="post">
+
+                                        <div class="top-row d-flex">
+
+                                            <div class="field-wrap"
+                                                style="display: flex;justify-content: space-between;">
+                                                <div class="field-wrap">
+                                                    <p>
+                                                        Name
+                                                    </p>
+                                                    <input type="text" required />
+                                                </div>
+                                                <div class="field-wrap">
+                                                    <p>
+                                                        Name
+                                                    </p>
+                                                    <input type="text" required />
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="field-wrap" style="display: flex;justify-content: space-between;">
+                                            <div class="field-wrap">
+                                                <p>
+                                                    Contact Number
+                                                </p>
+                                                <input type="number" required autocomplete="off" />
+                                            </div>
+                                            <div class="field-wrap">
+                                                <p>
+                                                    Email
+                                                </p>
+                                                <input type="email" required autocomplete="off" />
+                                            </div>
+
+                                        </div>
+                                        <div class="sel-wrapper">
+                                            <label for="lang">Role</label>
+                                            <select name="languages" id="lang">
+                                                <option value="javascript"><b>Administrator</b> </option>
+                                                <option value="php">PHP</option>
+                                                <option value="java">Java</option>
+                                                <option value="golang">Golang</option>
+                                                <option value="python">Python</option>
+                                                <option value="c#">C#</option>
+                                                <option value="C++">C++</option>
+                                                <option value="erlang">Erlang</option>
+                                            </select>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" aria-label="Close"
+                                    data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Understood</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container pt-5" style="
+    text-align: -webkit-center;">
+        <div class=" table-head">
+            <table id="table_id" class="display">
+                <thead>
+                    <tr class="bor-wrap">
+                        <th class="d-flex">
+
+                        </th>
+                        <th>
+                            <div class="sort-wrapper">
+                                Sort by <a href="" class="text-danger">Date Posted</a>
+                            </div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="wrap-flex">
+
+                                <div class="d-block">
+                                    <div> <span class="text-tab">John Doe</span> <br><span class="text-tab-2">YOU</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+
+                            <a href="" class="text-danger table-text-1">Administrator</a>
+
+                        </td>
+                        <td>
+                            <p class="table-text">0030</p>
+                        </td>
+                        <td>
+                            <p class="table-text">John@emaar.com</p>
+                        </td>
+                        <td>
+                            <p class="table-text">+97 546 789555</p>
+                        </td>
+                        <td>
+                            <a href=""><img class="ps-4 mb-3 table-text" src="assets/images/Path 19298.svg" alt=""></a>
+
+                        </td>
+                        <td>
+                            <a href=" " class="trash-text">🗑</a>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="wrap-flex">
+
+                                <div class="d-block">
+                                    <div> <span class="text-tab">John Doe</span> <br><span class="text-tab-2">YOU</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+
+                            <a href="" class="text-danger table-text-1">User</a>
+
+                        </td>
+                        <td>
+                            <p class="table-text">0030</p>
+                        </td>
+                        <td>
+                            <p class="table-text">John@emaar.com</p>
+                        </td>
+                        <td>
+                            <p class="table-text">+97 546 789555</p>
+                        </td>
+                        <td>
+                            <a href=""><img class="ps-4 mb-3 table-text" src="assets/images/Path 19299.svg" alt=""></a>
+
+                        </td>
+                        <td>
+                            <a href=" " class="trash-text-2">🗑</a>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="wrap-flex">
+
+                                <div class="d-block">
+                                    <div> <span class="text-tab">John Doe</span> <br><span class="text-tab-2">YOU</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+
+                            <a href="" class="text-danger table-text-1">User</a>
+
+                        </td>
+                        <td>
+                            <p class="table-text">0030</p>
+                        </td>
+                        <td>
+                            <p class="table-text">John@emaar.com</p>
+                        </td>
+                        <td>
+                            <p class="table-text">+97 546 789555</p>
+                        </td>
+                        <td>
+                            <a href=""><img class="ps-4 mb-3 table-text" src="assets/images/Path 19299.svg" alt=""></a>
+
+                        </td>
+                        <td>
+                            <a href=" " class="trash-text-2">🗑</a>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="wrap-flex">
+
+                                <div class="d-block">
+                                    <div> <span class="text-tab">John Doe</span> <br><span class="text-tab-2">YOU</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+
+                            <a href="" class="text-danger table-text-1">User</a>
+
+                        </td>
+                        <td>
+                            <p class="table-text">0030</p>
+                        </td>
+                        <td>
+                            <p class="table-text">John@emaar.com</p>
+                        </td>
+                        <td>
+                            <p class="table-text">+97 546 789555</p>
+                        </td>
+                        <td>
+                            <a href=""><img class="ps-4 mb-3 table-text" src="assets/images/Path 19299.svg" alt=""></a>
+
+                        </td>
+                        <td>
+                            <a href=" " class="trash-text-2">🗑</a>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="wrap-flex">
+
+                                <div class="d-block">
+                                    <div> <span class="text-tab">John Doe</span> <br><span class="text-tab-2">YOU</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+
+                            <a href="" class="text-danger table-text-1">User</a>
+
+                        </td>
+                        <td>
+                            <p class="table-text">0030</p>
+                        </td>
+                        <td>
+                            <p class="table-text">John@emaar.com</p>
+                        </td>
+                        <td>
+                            <p class="table-text">+97 546 789555</p>
+                        </td>
+                        <td>
+                            <a href=""><img class="ps-4 mb-3 table-text" src="assets/images/Path 19299.svg" alt=""></a>
+
+                        </td>
+                        <td>
+                            <a href=" " class="trash-text-2">🗑</a>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="assets/js/about.js"></script>
+    <script src="assets\js\bootstrap.bundle.js"></script>
+    <script src="assets\js\bootstrap.bundle.js.map"></script>
+    <script src="assets\js\bootstrap.bundle.min.js"></script>
+    <script src="assets\js\bootstrap.bundle.min.js.map"></script>
+    <script src="assets\js\bootstrap.esm.js"></script>
+    <script src="assets\js\bootstrap.esm.js.map"></script>
+    <script src="assets\js\bootstrap.esm.min.js"></script>
+    <script src="assets\js\bootstrap.esm.min.js.map"></script>
+    <script src="assets\js\bootstrap.js"></script>
+    <script src="assets\js\bootstrap.min.js.map"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

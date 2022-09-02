@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\css\bootstrap-grid.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-grid.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-grid.min.css.map" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-grid.rtl.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-grid.rtl.css.map" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-reboot.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-reboot.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-utilities.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-utilities.css.map" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-utilities.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-utilities.min.css.map" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-utilities.rtl.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap-utilities.rtl.min.css.map" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap.css.map" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap.min.css.map" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap.rtl.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap.rtl.css.map" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap.rtl.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets\css\bootstrap.rtl.min.css.map" type="text/css" />
+    <link rel="stylesheet" href="assets/css/listing.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#toggle_tst").hide()
+            $("#show_hide").click(function () {
+                $("#toggle_tst").toggle(500);
+            });
+        });
+        $(document).ready(function () {
+            $(".navbar-toggler").click(function () {
+                $("#navbarSupportedContent").toggle(500);
+            });
+        });
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assets/images/logo.png" width="157px" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=""
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link sale-text underlineHover" href="listing.html">Cars for sale &nbsp &nbsp
+                            <span style=" letter-spacing: var(--unnamed-character-spacing-0);width: 48px;height: 23px;/* UI Properties */border-radius: 5px;opacity: 1;
+    color: #ffffff;font-size: 14px;background: #ED1C24 0% 0% no-repeat padding-box;padding: 1px 7px;
+      ">1000</span></a>
+                    </li>
+                    <li class="nav-item">
+
+                        <a class="nav-link purchase-text underlineHover" href="AboutCars.html">Cars Purchase sale
+                            &nbsp
+                            &nbsp
+                            <span
+                                style="width: 48px;height: 23px; color: #ffffff;  font-size: 14px; background: #959494 0% 0% no-repeat padding-box;border-radius: 5px;opacity: 1;padding: 1px 7px;">2000</span></a>
+                    </li>
+                </ul>
+                <div class="d-flex">
+                    <a class="marg-icons underlineHover" href="CloseRquest.html">
+                        <img src="assets/images/Group 2319.png" alt="">
+                    </a>
+                    <a class="marg-icons underlineHover" href="saved.html">
+                        <img src="assets/images/Path 19264.png" alt="">
+                    </a>
+                    <button id="show_hide" style="border: none;background: none;"> <img src="assets/images/profile.png"
+                            width="50px" height="50px" alt=""></button>
+                    <div id="toggle_tst">
+                        <div class="row" id="">
+                            <div class="col-12">
+                                <div class="img-profile">
+                                    <img src="assets/images/profile.png" width="70px" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="text-profile">
+                                    Mazam Ul Huq
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="para-profile">Administrator</div>
+                            </div>
+                            <div class="col-12">
+                                <div class="edit-profile">
+                                    <a href="account.html">Edit account</a>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="btn-profile">
+                                    <a class="btn btn-primary ms-2 nav-btns-2" href="#">
+                                        Logout
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+    </nav>
+
+    <div class="outer-wrapper">
+        <div class="inner-wrapper">
+            <div class="filter-wrapper">
+                <div class="inp-wrapper">
+                    <div class="row">
+                        <div class="col-12">
+                            <form class="nosubmit">
+                                <input class="nosubmit" type="search" placeholder="Make,model and year">
+                                <select name="" id="loc-wrapper">
+                                    <option value="" selected disabled>⇆ &nbsp &nbsp select Location</option>
+                                    <option value=""></option>
+                                    <option value=""></option>
+                                </select>
+                                <div class="btn-wrapper">
+                                    <input type="button" name="make_payment" class="action-button" value="search" />
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="col-12 advan-wrapper">
+                            <a href="" class="advan-text">Advance search options &nbsp &nbsp Ξ</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container pt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <div>
+                    <p class="col-text">
+                        City
+                    </p>
+                    <label><input type="checkbox" />&nbsp &nbsp Karachi</label>
+                    <label><input type="checkbox" />&nbsp &nbsp Lahore</label>
+                    <label><input type="checkbox" />&nbsp &nbsp Islamabad</label>
+                    <label><input type="checkbox" />&nbsp &nbsp Peshawer</label>
+                    <input type="button" name="" class="search-button" value="VIEW All 20" />
+                </div>
+                <div class="pt-4">
+
+                    <p class="col-text">
+                        Make
+                    </p>
+                    <label><input type="checkbox" />&nbsp &nbsp Suzuki</label>
+                    <label><input type="checkbox" />&nbsp &nbsp Toyota</label>
+                    <label><input type="checkbox" />&nbsp &nbsp Honda</label>
+                    <label><input type="checkbox" />&nbsp &nbsp KIA</label>
+                    <input type="button" name="" class="search-button" value="VIEW All 40" />
+
+                </div>
+                <div class="pt-4">
+
+                    <p class="col-text">
+                        Year
+                    </p>
+                    <label><input type="checkbox" />&nbsp &nbsp 2020</label>
+                    <label><input type="checkbox" />&nbsp &nbsp 2019</label>
+                    <label><input type="checkbox" />&nbsp &nbsp 2018</label>
+                    <label><input type="checkbox" />&nbsp &nbsp 2017</label>
+                    <input type="button" name="" class="search-button" value="search" />
+
+                </div>
+                <div class="pt-4">
+
+                    <p class="col-text">
+                        Color
+                    </p>
+                    <label><input type="checkbox" />&nbsp &nbsp 🔴 Red</label>
+                    <label><input type="checkbox" />&nbsp &nbsp ⚫ Black</label>
+                    <label><input type="checkbox" />&nbsp &nbsp ⚪ White</label>
+                    <label><input type="checkbox" />&nbsp &nbsp 🔘 Gray</label>
+                    <input type="button" name="" class="search-button" value="search" />
+
+                </div>
+
+            </div>
+            <div class="col-lg-9 d-flex">
+                <div class="table-head">
+                    <table id="table_id" class="display">
+                        <thead>
+                            <tr class="bor-wrap">
+                                <th class="d-flex">
+                                    <div class="noti-image">
+                                        <img src="assets/images/noti.svg" width="14px" alt="">
+                                    </div>
+                                    <p class="pt-2">&nbsp &nbsp Create alerts for this search?</p>
+                                </th>
+                                <th>
+                                    <div class="sort-wrapper">
+                                        Sort by <a href="" class="text-danger">Date Posted</a>
+                                    </div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="wrap-flex">
+
+                                        <div class="d-block">
+                                            <div><img src="assets/images/alto.png" width="28px" alt="">
+                                                &nbsp &nbsp
+                                                Suzuki Alto 2020
+                                                - VXR</div>
+                                            <div class="wrap-flex-2">
+
+                                                <p class="table-text-0">Islamabad</p>
+                                                <small>5 minutes</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <a href="" class="text-danger table-text">Instant Offer</a>
+                                </td>
+                                <td>
+                                    <p class="table-text">🕰 1000 Km</p>
+                                </td>
+                                <td>
+                                    <p class="table-text">&nbsp ⚙️ Automatic</p>
+                                </td>
+                                <td>
+                                    <p class="table-text">🔴 Red</p>
+                                </td>
+                                <td>
+                                    <a href=""><img class="p-4 mb-3" src="assets/images/Path 19255 (1).svg" alt=""></a>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="wrap-flex">
+
+                                        <div class="d-block">
+                                            <div><img src="assets/images/alto.png" width="28px" alt="">
+                                                &nbsp &nbsp
+                                                Suzuki Alto 2020
+                                                - VXR</div>
+                                            <div class="wrap-flex-2">
+
+                                                <p class="table-text-0">Islamabad</p>
+                                                <small>5 minutes</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="table-text "><a href="" class="text-danger">Instant Offer</a> </td>
+                                <td>
+                                    <p class="table-text">🕰 1000 Km</p>
+                                </td>
+                                <td>
+                                    <p class="table-text">&nbsp ⚙️ Automatic</p>
+                                </td>
+                                <td>
+                                    <p class="table-text">🔴 Red</p>
+                                </td>
+                                <td>
+
+                                    <a href=""><img class="p-4 mb-3" src="assets/images/Path 19255.svg" alt=""></a>
+
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="wrap-flex">
+
+                                        <div class="d-block">
+                                            <div><img src="assets/images/alto.png" width="28px" alt="">
+                                                &nbsp &nbsp
+                                                Suzuki Alto 2020
+                                                - VXR</div>
+                                            <div class="wrap-flex-2">
+
+                                                <p class="table-text-0">Islamabad</p>
+                                                <small>5 minutes</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="table-text "><a href="" class="text-danger">Instant Offer</a> </td>
+                                <td>
+                                    <p class="table-text">🕰 1000 Km</p>
+                                </td>
+                                <td>
+                                    <p class="table-text">&nbsp ⚙️ Automatic</p>
+                                </td>
+                                <td>
+                                    <p class="table-text">🔴 Red</p>
+                                </td>
+                                <td>
+
+                                    <a href=""><img class="p-4 mb-3" src="assets/images/Path 19255 (1).svg" alt=""></a>
+
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="wrap-flex">
+
+                                        <div class="d-block">
+                                            <div><img src="assets/images/alto.png" width="28px" alt="">
+                                                &nbsp &nbsp
+                                                Suzuki Alto 2020
+                                                - VXR</div>
+                                            <div class="wrap-flex-2">
+
+                                                <p class="table-text-0">Islamabad</p>
+                                                <small>5 minutes</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="table-text "><a href="" class="text-danger">Instant Offer</a> </td>
+                                <td>
+                                    <p class="table-text">🕰 1000 Km</p>
+                                </td>
+                                <td>
+                                    <p class="table-text">&nbsp ⚙️ Automatic</p>
+                                </td>
+                                <td>
+                                    <p class="table-text">🔴 Red</p>
+                                </td>
+                                <td>
+
+                                    <a href=""><img class="p-4 mb-3" src="assets/images/Path 19255 (1).svg" alt=""></a>
+
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="wrap-flex">
+
+                                        <div class="d-block">
+                                            <div><img src="assets/images/alto.png" width="28px" alt="">
+                                                &nbsp &nbsp
+                                                Suzuki Alto 2020
+                                                - VXR</div>
+                                            <div class="wrap-flex-2">
+
+                                                <p class="table-text-0">Islamabad</p>
+                                                <small>5 minutes</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="table-text "><a href="" class="text-danger">Instant Offer</a> </td>
+                                <td>
+                                    <p class="table-text">🕰 1000 Km</p>
+                                </td>
+                                <td>
+                                    <p class="table-text">&nbsp ⚙️ Automatic</p>
+                                </td>
+                                <td>
+                                    <p class="table-text">🔴 Red</p>
+                                </td>
+                                <td>
+
+                                    <a href=""><img class="p-4 mb-3" src="assets/images/Path 19255 (1).svg" alt=""></a>
+
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="wrap-flex">
+
+                                        <div class="d-block">
+                                            <div><img src="assets/images/alto.png" width="28px" alt="">
+                                                &nbsp &nbsp
+                                                Suzuki Alto 2020
+                                                - VXR</div>
+                                            <div class="wrap-flex-2">
+
+                                                <p class="table-text-0">Islamabad</p>
+                                                <small>5 minutes</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="table-text "><a href="" class="text-danger">Instant Offer</a> </td>
+                                <td>
+                                    <p class="table-text">🕰 1000 Km</p>
+                                </td>
+                                <td>
+                                    <p class="table-text">&nbsp ⚙️ Automatic</p>
+                                </td>
+                                <td>
+                                    <p class="table-text">🔴 Red</p>
+                                </td>
+                                <td>
+
+                                    <a href=""><img class="p-4 mb-3" src="assets/images/Path 19255 (1).svg" alt=""></a>
+
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="wrap-flex">
+
+                                        <div class="d-block">
+                                            <div><img src="assets/images/alto.png" width="28px" alt="">
+                                                &nbsp &nbsp
+                                                Suzuki Alto 2020
+                                                - VXR</div>
+                                            <div class="wrap-flex-2">
+
+                                                <p class="table-text-0">Islamabad</p>
+                                                <small>5 minutes</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="table-text "><a href="" class="text-danger">Instant Offer</a> </td>
+                                <td>
+                                    <p class="table-text">🕰 1000 Km</p>
+                                </td>
+                                <td>
+                                    <p class="table-text">&nbsp ⚙️ Automatic</p>
+                                </td>
+                                <td>
+                                    <p class="table-text">🔴 Red</p>
+                                </td>
+                                <td>
+
+                                    <a href=""><img class="p-4 mb-3" src="assets/images/Path 19255 (1).svg" alt=""></a>
+
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="wrap-flex">
+
+                                        <div class="d-block">
+                                            <div><img src="assets/images/alto.png" width="28px" alt="">
+                                                &nbsp &nbsp
+                                                Suzuki Alto 2020
+                                                - VXR</div>
+                                            <div class="wrap-flex-2">
+
+                                                <p class="table-text-0">Islamabad</p>
+                                                <small>5 minutes</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="table-text "><a href="" class="text-danger">Instant Offer</a> </td>
+                                <td>
+                                    <p class="table-text">🕰 1000 Km</p>
+                                </td>
+                                <td>
+                                    <p class="table-text">&nbsp ⚙️ Automatic</p>
+                                </td>
+                                <td>
+                                    <p class="table-text">🔴 Red</p>
+                                </td>
+                                <td>
+
+                                    <a href=""><img class="p-4 mb-3" src="assets/images/Path 19255 (1).svg" alt=""></a>
+
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="wrap-flex">
+
+                                        <div class="d-block">
+                                            <div><img src="assets/images/alto.png" width="28px" alt="">
+                                                &nbsp &nbsp
+                                                Suzuki Alto 2020
+                                                - VXR</div>
+                                            <div class="wrap-flex-2">
+
+                                                <p class="table-text-0">Islamabad</p>
+                                                <small>5 minutes</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="table-text "><a href="" class="text-danger">Instant Offer</a> </td>
+                                <td>
+                                    <p class="table-text">🕰 1000 Km</p>
+                                </td>
+                                <td>
+                                    <p class="table-text">&nbsp ⚙️ Automatic</p>
+                                </td>
+                                <td>
+                                    <p class="table-text">🔴 Red</p>
+                                </td>
+                                <td>
+
+                                    <a href=""><img class="p-4 mb-3" src="assets/images/Path 19255 (1).svg" alt=""></a>
+
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <!-- <div class="noti-image">
+                    <img src="assets/images/noti.svg" width="14px" alt="">
+                </div>
+                <p class="pt-2">&nbsp &nbsp Create alerts for this search?</p>
+                <div class="sort-wrapper">
+                    Sort by <a href="" class="text-danger">Date Posted</a>
+                </div> -->
+
+            </div>
+        </div>
+    </div>
+
+    <script src="assets\js\bootstrap.bundle.js"></script>
+    <script src="assets\js\bootstrap.bundle.js.map"></script>
+    <script src="assets\js\bootstrap.bundle.min.js"></script>
+    <script src="assets\js\bootstrap.bundle.min.js.map"></script>
+    <script src="assets\js\bootstrap.esm.js"></script>
+    <script src="assets\js\bootstrap.esm.js.map"></script>
+    <script src="assets\js\bootstrap.esm.min.js"></script>
+    <script src="assets\js\bootstrap.esm.min.js.map"></script>
+    <script src="assets\js\bootstrap.js"></script>
+    <script src="assets\js\bootstrap.min.js.map"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

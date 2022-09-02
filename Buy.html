@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CareCar</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- partial:index.partial.html -->
+    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css'>
+    <link rel='stylesheet' href='https://demo.semicolonworld.com/css/style.css'>
+    <link rel='stylesheet'
+        href='https://demo.semicolonworld.com/multiselect-dropdown-with-checkbox-using-jquery/jquery.multiselect.css'>
+    <link rel="stylesheet" href="multiselect/jquery.multiselect.css">
+    <link rel="stylesheet" href="assets/fonts/Poppins-Black.ttf">
+    <link rel="stylesheet" href="assets/fonts/Poppins-Bold.ttf">
+    <link rel="stylesheet" href="assets/fonts/Poppins-ExtraBold.ttf">
+
+    <link rel="stylesheet" href="assets/fonts/Poppins-Regular.ttf">
+
+    <link rel="stylesheet" href="assets/fonts/Poppins-Medium.ttf">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- JS & CSS library of MultiSelect plugin -->
+    <script src="multiselect/jquery.multiselect.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+
+
+</head>
+
+<body>
+    <div class="nav-wrapper">
+        <div class="image-wrapper">
+            <img src="assets/images/logo.png" width="222px" alt="">
+        </div>
+        <div class="text-wrapper">
+            <h1 style="font-size: 24px;padding-left: 16rem;padding-top: 20px;">
+                Buy your new car in three easy steps
+
+            </h1>
+        </div>
+    </div>
+    <!-- MultiStep Form -->
+    <div class="container-fluid" id="">
+        <div class="row justify-content-center mt-0">
+            <div class="col-11 col-sm-9 col-md-7 col-lg-6 text-center p-0 mt-3 mb-2">
+                <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
+                    <!-- <h2><strong>Sign Up Your User Account</strong></h2>
+                    <p>Fill all form field to go to next step</p> -->
+                    <div class="row">
+                        <div class="col-md-12 mx-0">
+                            <form id="msform" action="/action_page.php" method="post">
+                                <!-- fieldsets -->
+                                <fieldset id="fieldset-1">
+                                    <div class="form-card container">
+                                        <p>STEP 1</p>
+                                        <h2 class="fs-title">Enter your car information</h2>
+                                        <div class="row d-flex" style="margin-bottom: 69px;">
+                                            <div class="flex-1">
+
+                                                <div class="col-3"> <label class="pay">Select Year Range<span
+                                                            class="text-warning">*</span></label>
+                                                </div>
+                                                <p class="text-para">To</p>
+                                                <div class="col-9">
+                                                    <div class="d-flex">
+                                                        <select class="list-dt-1 " id="month" name="expmonth"
+                                                            required="true">
+                                                            <option selected disabled value=""> Select Year</option>
+                                                            <option class="myinput" value="yr3">2013</option>
+                                                            <option class="myinput" value="yr1">2014</option>
+                                                            <option class="myinput" value="yr2">2015</option>
+                                                            <option class="myinput" value="yr3">2016</option>
+                                                            <option class="myinput" value="yr3">2017</option>
+                                                        </select>
+                                                        <select class="list-dt-1" id="year" name="expyear"
+                                                            required="true">
+                                                            <option selected disabled value="">Select Year</option>
+                                                            <option class="myinput" value="yr1">2018</option>
+                                                            <option class="myinput" value="yr2">2019</option>
+                                                            <option class="myinput" value="yr3">2020</option>
+                                                            <option class="myinput" value="yr3">2021</option>
+                                                            <option class="myinput" value="yr3">2022</option>
+                                                        </select>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="flex-2">
+                                                <p class="text-para-2">From</p>
+                                                <div class="col-3"> <label class="pay ">Make<span
+                                                            class="text-warning">*</span></label>
+                                                </div>
+                                                <div class="col-9">
+                                                    <select name="langOptgroup[]" multiple id="langOptgroup"
+                                                        required="true">
+                                                        <optgroup label="Select Year">
+                                                            <option class="myinput" value="yr1">2020</option>
+                                                            <option class="myinput" value="yr2">2022</option>
+                                                            <option class="myinput" value="yr3">2023</option>
+                                                        </optgroup>
+                                                        <optgroup label="Select Make">
+
+                                                            <option class="myinput" value="mk">Suzuki</option>
+                                                            <option class="myinput" value="md">Alto</option>
+                                                            <option class="myinput" value="vs">VXR</option>
+                                                        </optgroup>
+                                                        <optgroup label="Select Modal">
+
+                                                            <option value="mk2">Suzuki</option>
+                                                            <option value="md2">Alto</option>
+                                                            <option value="vs2">VXR</option>
+                                                        </optgroup>
+                                                        <optgroup label="Select Version">
+
+                                                            <option value="mk3">Suzuki</option>
+                                                            <option value="md3">Alto</option>
+                                                            <option value="vs3">VXR</option>
+                                                        </optgroup>
+
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="flex-1">
+
+                                                <div class="col-3"> <label class="pay">Multiple Registration Cities
+                                                        <span class="text-warning">*</span></label>
+                                                </div>
+
+                                                <div class="col-9">
+                                                    <select name="langOpt[]" multiple id="langOpt" required="true">
+                                                        <option value="kr">Karachi</option>
+                                                        <option value="lr">Lahore</option>
+                                                        <option value="fs">Faislabad</option>
+                                                        <option value="rp">Rawalpindi</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="flex-2">
+                                                <div class="col-3" style="padding-right :32px !important;"> <label
+                                                        class="pay ">Transmission <span
+                                                            class="text-warning">*</span></label>
+                                                </div>
+                                                <div class="col-9">
+                                                    <select class="list-dt" id="month" name="expmonth" required="true">
+                                                        <option selected disabled value=""> Select Transmission</option>
+                                                        <option>Automatic</option>
+                                                        <option>Manual</option>
+                                                        <option>Any</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <input type="submit" name="next" class="next action-button pos-1 submit"
+                                        value="Save & Continue" />
+                                </fieldset>
+                                <fieldset id="fieldset-2">
+                                    <div class="form-card container">
+                                        <div class="text-wrap">
+                                            <p>STEP 2</p>
+                                            <h6 class="fs-title">Select Colour and Bugdet</h6>
+                                        </div>
+                                        <div class="row d-flex">
+                                            <div class="flex-1">
+                                                <div class="col-3" style="padding-right :32px !important;"> <label
+                                                        class="pay ">Multiple Exterior Color <span
+                                                            class="text-warning">*</span></label>
+                                                </div>
+                                                <div class="col-9"> <select name="LangOpt[]" multiple id="LangOpt">
+                                                        <option value="red">red</option>
+                                                        <option value="green">green</option>
+                                                        <option value="blue">blue</option>
+                                                        <option value="yellow">yellow</option>
+                                                    </select>
+                                                </div>
+
+                                            </div>
+                                            <div class="flex-2">
+                                                <div class="col-3" style="padding-right :32px !important;"> <label
+                                                        class="pay">Budget <span class="text-warning">*</span></label>
+                                                </div>
+                                                <div class="col-9 d-flex">
+
+                                                    <input type="text" value="MIN &nbsp" class="input-wrapp">
+                                                    <input type="text" value="MAX &nbsp" class="input-wrapp-2">
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="flex-1">
+                                            <div class="text-wrap">
+
+                                                <h6 class="fs-2">Set urgency</h6>
+                                            </div>
+                                            <div class="col-3"> <label class="pay ">Urgency <span
+                                                        class="text-warning">*</span></label>
+                                            </div>
+                                            <div class="col-9">
+
+                                                <select class="list-dt-3" id="month" name="expmonth" required>
+                                                    <option>High &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Need a car on
+                                                        urgent basis</option>
+                                                    <option>Medium &nbsp &nbsp &nbsp Need a car within
+                                                        15 days</option>
+                                                    <option>Low &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                                        Need a car in
+                                                        best
+                                                        condition possible
+                                                    </option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input type="submit" name="next" class="next action-button pos-2 submit"
+                                        value="Save & Continue" />
+                                </fieldset>
+                                <fieldset id="fieldset-3">
+                                    <div class="form-card container">
+                                        <div class="text-wrap">
+                                            <p>STEP 3</p>
+                                            <h6 class="fs-title">Contact information</h6>
+                                        </div>
+
+                                        <div class="col-9 d-flex" style="margin: 4px;">
+                                            <div class="wrap-1"><label class="pay " style="display: block;">Name
+                                                    <span class="text-warning">*</span></label>
+                                                <input type="text" placeholder="Type Full Name" required
+                                                    class="input-11">
+                                            </div>
+                                            <div class="wrap-2"><label class="pay " style="display: block;">Email
+                                                    <span class="text-warning">*</span></label>
+                                                <input type="text" placeholder="Type Your Email" required
+                                                    class="input-11">
+                                            </div>
+                                            <div class="wrap-3"><label class="pay " style="display: block;">Contact
+                                                    Number
+                                                    <span class="text-warning">*</span></label>
+                                                <input type="text" placeholder="Type Your Contact Number" required
+                                                    class="input-11">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-9 d-flex">
+                                            <div class="wrap-3"><label class="pay " style="display: block;">City
+                                                    <span class="text-warning">*</span></label>
+                                                <input type="text" placeholder="Select City" required class="input-11">
+                                            </div>
+                                            <div class="wrap-3"><label class="pay " style="display: block;">Address
+                                                    <span class="text-warning">*</span></label>
+                                                <input type="text" placeholder="Type Your Address" required
+                                                    class="input-22">
+                                            </div>
+                                        </div>
+                                        <div class="wrap-3" style="margin-left: 36px;">
+                                            <label class="pay " style="display: block;">Notes (Optional)
+                                                <span class="text-warning">*</span>
+                                            </label>
+                                            <textarea id="w3review" name="w3review" rows="4" cols="50"
+                                                placeholder="Add Notes" required></textarea>
+                                        </div>
+                                    </div>
+                                    <input type="submit" id="myElement" class="next action-button review submit"
+                                        value="Save & review" />
+                                </fieldset>
+
+                                <ul id="progressbar">
+
+                                    <li class="active prog-btn" id="account">
+                                        <a class="achor-wrap" href="#fieldset-1"><strong class="strong-wrapp">Car
+                                                Information </strong></a>
+                                    </li>
+                                    <li class="prog-btn" id="personal">
+                                        <a class="achor-wrap" href="#fieldset-2"><strong class="strong-wrapp">Select
+                                                Colour and Budget</strong></a>
+                                    </li>
+                                    <li class="prog-btn" id="payment">
+                                        <a class="achor-wrap" href="#fieldset-3"><strong class="strong-wrapp">Contact
+                                                Information</strong></a>
+                                    </li>
+                                    <!-- <li class="prog-btn" id=""><button class="btn btn-warning"
+                                            style="margin-top: 22px;">Save &
+                                            Continue</button>
+                                    </li> -->
+
+                                </ul>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script
+        src='https://demo.semicolonworld.com/multiselect-dropdown-with-checkbox-using-jquery/jquery.multiselect.js'></script>
+    <!-- partial -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
